@@ -3,7 +3,6 @@ Within this repository are all required materials to run the Shiu Lab's semi-aut
 
 ## File Descriptions
 - **ml_pipeline_env.yml**: This .yml file contains all required dependencies for running all scripts.
-- **ML_preprocess.py**: This .py script prepares your input data matrix for use in subsequent scripts.
 - **test_set.py**: This .py script sets aside a percentage of instances to be used for model validation. These instances are NOT used to  train the model.
 - **Feature_Selection.py**: This .py script selects informative features for use by the classification algorithm.
 - **ML_classification.py**: This .py script classifies instances provided for training.
@@ -13,8 +12,8 @@ Within this repository are all required materials to run the Shiu Lab's semi-aut
 - **ML_functions.py**: This file is utilized by the classification script to provide required functions.
 
 ## Authors and acknowledgment
-Feature_Selection.py, ML_classification.py, ML_functions.py, ML_preprocess.py, and test_set.py were directly copied from https://github.com/ShiuLab/ML-Pipeline.
-ml_pipeline_env.yml, ML_ROS_rf_50.sh, ML_ROS_rf_50_shapdf.py, and ML_ROS_model_output.pkl are original for this project.
+Feature_Selection.py, ML_classification.py, and test_set.py were directly copied from https://github.com/ShiuLab/ML-Pipeline.
+ml_pipeline_env.yml, ML_ROS_rf_50.sh, ML_ROS_rf_50_shapdf.py are original for this project.
 
 ## License
 Licensing for the Shiu Lab's scripts can be found at https://github.com/ShiuLab/ML-Pipeline.
