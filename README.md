@@ -1,5 +1,5 @@
 # Code for "Machine learning reveals genes impacting oxidative stress resistance across yeasts"
-Within this repository are all required materials to run the Shiu Lab's semi-automated ML pipeline and produce SHAP values using our model's output.
+Within this repository are all required materials to run a semi-automated ML pipeline and produce SHAP values using our model's output.
 
 ## File Descriptions
 - **ml_pipeline_env.yml**: This .yml file contains all required dependencies for running all scripts.
