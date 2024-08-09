@@ -13,7 +13,7 @@ Within this repository are all required materials to run a semi-automated ML pip
 
 ## Authors and acknowledgment
 Feature_Selection.py, ML_classification.py, and test_set.py were directly copied from https://github.com/ShiuLab/ML-Pipeline.
-ml_pipeline_env.yml, ML_ROS_rf_50.sh, ML_ROS_rf_50_shapdf.py are original for this project.
+ml_pipeline_env.yml, ML_ROS_rf_50.sh, ML_ROS_rf_50_shapdf.py, and ML_ROS_model_output.pkl are original for this project.
 
 ## License
 Licensing for the Shiu Lab's scripts can be found at https://github.com/ShiuLab/ML-Pipeline.
