@@ -6,7 +6,7 @@ Within this repository are all required materials to run a semi-automated ML pip
 - **ML_preprocess.py**: This .py script prepares input data matrix for use by subsequent algorithms.
 - **test_set.py**: This .py script sets aside a percentage of instances to be used for model validation. These instances are NOT used to  train the model.
 - **Feature_Selection.py**: This .py script selects informative features for use by the classification algorithm.
-- **ML_classification.py**: This .py script classifies instances provided for training.
+- **ML_classification.py**: This .py script classifies instances in the provided input matrix based on feature patterns and relationships.
 - **ML_ROS_rf_50.sh**: This .sh file contains all executible files ran to generate the model used in this manuscript.
 - **ML_ROS_rf_50_shapdf.py**: This .py script parses the model's .pkl file, estimates SHAP values, and compiles those SHAP values in a Pandas Dataframe. 
 - **ML_ROS_model_output.pkl**: This .pkl file contains all model output from the model generated for this manuscript in a compressed format.
