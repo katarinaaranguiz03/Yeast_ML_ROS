@@ -28,7 +28,7 @@ Within the Sample_Data folder is:
 - **PRACTICE_smallset.tsv**: This .tsv file is a condensed version of our input data matrix to practice running the pipeline.
 - **PRACTICE_output**: The PRACTICE_output file contains all pipeline output that is generated after running the practice scripts provided.
 
-## Authors and acknowledgment
+## Authors and Acknowledgment
 Feature_Selection.py, ML_classification.py, and test_set.py were directly copied from https://github.com/ShiuLab/ML-Pipeline.
 ml_pipeline_env.yml, ML_ROS_rf_50.sh, ML_ROS_rf_50_shapdf.py, and ML_ROS_model_output.pkl are original for this project.
 
