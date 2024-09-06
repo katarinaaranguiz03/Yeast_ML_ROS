@@ -13,7 +13,7 @@ Within this repository are all required materials to run a semi-automated ML pip
 - **ML_functions.py**: This .py script is utilized by the classification script to provide required functions.
 
 ## Virtual Environment Setup
-Before you can create a Conda environment, install Conda from the [official Anaconda website.](https://www.anaconda.com/) Then, create an environment based on the .yml file provided.
+Before you can create a Conda environment, install Conda from the [official Anaconda website](https://www.anaconda.com/). Then, create an environment based on the .yml file provided.
 ```python
 conda env create -f ml_pipeline_env.yml
 ```
