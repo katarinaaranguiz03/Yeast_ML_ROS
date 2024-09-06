@@ -12,7 +12,7 @@ Within this repository are all required materials to run a semi-automated ML pip
 - **ML_ROS_model_output.pkl**: This .pkl file contains all model output from the model generated for this manuscript in a compressed format.
 - **ML_functions.py**: This .py script is utilized by the classification script to provide required functions.
 
-# Sample Data Folder
+## Sample Data Folder
 Within the Sample_Data folder is:
 - **PRACTICE.sh**: This .sh file is the executable file that is submitted in the PRACTICE.submit file provided to generate sample data
 - **PRACTICE.submit**: This .submit file is what we used to submit pipeline jobs to our lab's compute cluster.
