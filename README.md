@@ -1,6 +1,8 @@
 # Code for "Machine learning reveals genes impacting oxidative stress resistance across yeasts"
 Within this repository are all required materials to run a semi-automated ML pipeline and produce SHAP values using our model's output.
 
+## Virtual Environment Setup
+
 ## File Descriptions
 - **ml_pipeline_env.yml**: This .yml file contains all required dependencies for running all scripts.
 - **ML_preprocess.py**: This .py script prepares input data matrix for use by subsequent algorithms.
@@ -14,7 +16,7 @@ Within this repository are all required materials to run a semi-automated ML pip
 
 ## Sample Data Folder
 Within the Sample_Data folder is:
-- **PRACTICE.sh**: This .sh file is the executable file that is submitted in the PRACTICE.submit file provided to generate sample data
+- **PRACTICE.sh**: This .sh file is the executable file that is submitted in the PRACTICE.submit file provided to generate sample data.
 - **PRACTICE.submit**: This .submit file is what we used to submit pipeline jobs to our lab's compute cluster.
 - **PRACTICE_smallset.tsv**: This .tsv file is a condensed version of our input data matrix to practice running the pipeline.
 - **PRACTICE_output**: The PRACTICE_output file contains all pipeline output that is generated after running the practice scripts provided.
