@@ -2,6 +2,14 @@
 Within this repository are all required materials to run a semi-automated ML pipeline and produce SHAP values using our model's output.
 
 ## Virtual Environment Setup
+- Before you can create a Conda environment, install Conda from the official Anaconda website.
+```python
+conda env create -f environment.yml
+```
+```python
+conda activate my_env
+```
+conda activate my_env
 
 ## File Descriptions
 - **ml_pipeline_env.yml**: This .yml file contains all required dependencies for running all scripts.
