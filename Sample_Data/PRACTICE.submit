@@ -1,0 +1,16 @@
+universe                = vanilla
+log                     = run.$(Cluster).$(Process).log
+output                  = run.$(Cluster).$(Process).out
+error                   = run.$(Cluster).$(Process).error
+when_to_transfer_output = ON_EXIT
+should_transfer_files   = YES
+transfer_input_files    = ../PRACTICE_smallset.tsv, ../ML_preprocess.py, ../test_set.py, ../Feature_Selection.py, ../ML_classification.py, ../ML_functions.py
+initialdir              = $(run_dir)
+executable              = PRACTICE.sh
+arguments               = PRACTICE_smallset.tsv
+request_cpus            = 2
+request_memory          = 4GB
+queue
+
+
+

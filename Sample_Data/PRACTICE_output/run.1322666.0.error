@@ -1,0 +1,6 @@
+/mnt/bigdata/linuxhome/aranguiz/.conda/envs/ml_pipeline/lib/python3.6/site-packages/pandas/core/ops/array_ops.py:253: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  res_values = method(rvalues)
+/mnt/bigdata/linuxhome/aranguiz/.conda/envs/ml_pipeline/lib/python3.6/site-packages/pandas/core/ops/array_ops.py:253: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  res_values = method(rvalues)
+/var/lib/condor/execute/dir_19934/ML_functions.py:705: RuntimeWarning: invalid value encountered in long_scalars
+  precis.append(TP / (TP + FP))
