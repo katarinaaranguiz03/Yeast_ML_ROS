@@ -2,7 +2,7 @@ import os
 import requests
 from datetime import datetime
 
-token = os.getenv("GITHUB_TOKEN")
+token = os.getenv("PAT_TOKEN")
 repo = os.getenv("GITHUB_REPOSITORY")
 
 print("Using repo:", repo)
