@@ -24,6 +24,11 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - name: Commit and push traffic log
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
@@ -32,5 +37,6 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add traffic_log.csv
           git commit -m "Update traffic log [skip ci]" || echo "No changes"
+          # Fetch and rebase remote changes before pushing
           git pull https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }} HEAD:main --rebase
           git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }} HEAD:main
