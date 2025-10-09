@@ -2,6 +2,10 @@ import os
 import requests
 from datetime import datetime
 
+
+print("Token present in runner:", bool(os.getenv("PAT_TOKEN")))
+
+
 token = os.getenv("GITHUB_TOKEN")
 repo = os.getenv("GITHUB_REPOSITORY")
 
