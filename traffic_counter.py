@@ -30,4 +30,3 @@ if not os.path.exists(csv_file):
 
 with open(csv_file, "a") as f:
     f.write(line)
-
